@@ -1,0 +1,214 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE, #434455);
+  background: var(--WHITE, #fff);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+/*------------HEADER--------------*/
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  color: var(--IRIS, #4d5ae5);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+.header-logo-color {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+.header-list {
+}
+.header-menu {
+}
+.header-menu-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--OCEAN, #404bbf);
+  text-decoration: underline;
+}
+
+/*----------------ADDRESS--------------*/
+
+.address {
+  font-style: normal;
+}
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-address {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-menu-address:hover,
+.header-menu-address:focus {
+  color: var(--OCEAN, #404bbf);
+}
+.main {
+}
+
+/*----------SECTION1----------*/
+
+.hero-list {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.hero-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.button {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--IRIS, #4d5ae5);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+/*----------------SECTION2------------------*/
+
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-text {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*-----------------SECTION3-----------------*/
+
+.section {
+  background-color: #f4f4fd;
+}
+.section-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-list {
+}
+.section-item {
+  background: var(--WHITE, #fff);
+}
+.section-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-text {
+  color: var(--SLATE, #434455);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*-----------------SECTION4-------------------*/
+
+.features-section {
+  background-color: #f4f4fd;
+}
+.features-section-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.features-section-list {
+}
+.features-section-item {
+  background: var(--WHITE, #fff);
+}
+.features-section-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-section-text {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*-------------------FOOTER------------------*/
+
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.footer-link {
+  color: var(--IRIS, #4d5ae5);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+.footer-link-color {
+  color: var(--CLOUD, #f4f4fd);
+}
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background: var(--NAVY-BLUE, #2e2f42);
+}
