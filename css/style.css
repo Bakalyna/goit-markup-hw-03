@@ -75,7 +75,8 @@ address {
   letter-spacing: 0.03em;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  margin-right: 76;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 .header-logo-color {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -258,6 +259,7 @@ address {
 .features-section {
   background: #fff;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .features-section-title {
   color: var(--NAVY-BLUE, #2e2f42);
