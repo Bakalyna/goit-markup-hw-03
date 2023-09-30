@@ -39,6 +39,18 @@ img {
 address {
   font-style: normal;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /*------------HEADER--------------*/
 
@@ -53,7 +65,7 @@ address {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  
+  padding: 24px 0;
 }
 .header-logo {
   color: var(--IRIS, #4d5ae5);
@@ -71,7 +83,6 @@ address {
 .header-list {
   display: flex;
   gap: 40px;
-
 }
 .header-menu {
 }
@@ -168,11 +179,13 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .features-list {
   display: flex;
   gap: 24px;
 }
 .features-item {
+  width: calc((100% - 72px) / 4);
 }
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -194,7 +207,7 @@ address {
 
 .section {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .section-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -213,13 +226,18 @@ address {
 }
 .section-item {
   background: var(--WHITE, #fff);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-img {
   margin-bottom: 32px;
 }
+.container-img {
+  padding: 32px 0;
+}
 .section-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
-
+  text-align: center;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -227,6 +245,7 @@ address {
 }
 .section-text {
   color: var(--SLATE, #434455);
+  text-align: center;
 
   font-size: 16px;
   font-weight: 400;
@@ -238,7 +257,7 @@ address {
 
 .features-section {
   background: #fff;
-  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .features-section-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -255,6 +274,7 @@ address {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .features-section-item {
   background: var(--WHITE, #fff);
@@ -262,12 +282,18 @@ address {
 .features-img {
   margin-bottom: 32px;
 }
+.features-section-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .features-section-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .features-section-text {
   color: var(--SLATE, #434455);
@@ -282,6 +308,7 @@ address {
   background: var(--NAVY-BLUE, #2e2f42);
   padding-top: 102px;
   padding-bottom: 100px;
+  padding: 100px 0;
 }
 .footer-link {
   color: var(--IRIS, #4d5ae5);
@@ -292,6 +319,8 @@ address {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   padding-top: 102px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-link-color {
   color: var(--CLOUD, #f4f4fd);
